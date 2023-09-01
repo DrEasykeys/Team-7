@@ -1,0 +1,105 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.navbar {
+  /* border: 1px solid red; */
+  height: 11vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.subnav {
+  /* border: 1px solid yellow; */
+  height: 7vh;
+  width: 83%;
+  display: flex;
+  align-items: center;
+}
+
+.purplebuzzdiv {
+  /* border: 1px solid green; */
+  /* height: 50px; */
+  display: flex;
+}
+.spanpurple {
+  color: black;
+  margin-right: 10px;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.spanbuzz {
+  color: blueviolet;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.anchorgeneral {
+  margin-left: 100px;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+}
+.anchordiv {
+  /* border: 1px solid blue; */
+  height: 50px;
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.anchordiv a {
+  text-decoration: none;
+  color: gray;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* WITH THIS, WHEN WE HOVER ON THE ANCHOR DIV, IT SHOULD CHANGE TO BLUE */
+.anchordiv:hover {
+  background-color: blue;
+  border-radius: 30px;
+}
+
+/* WITH THIS, WHEN WE HOVER ON THE ANCHOR DIV ALSO, THE ANCHOR NAME SHOULD 
+CHANGE TO WHITE ALONGSIDE. SO WE HAD TO MENTION THE HOVERED 
+ANCHOR DIV AGAIN AND AND THEN MENTION THE ANCHOR TAG WHICH WILL BE "a" */
+.anchordiv:hover a {
+  color: white;
+}
+
+.secondanchorgeneral {
+  /* border: 1px solid black; */
+  height: 6.3vh;
+  width: 20%;
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.secondsub {
+  /* border: 1px solid red; */
+  height: 5vh;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.secondsub i {
+  font-size: 25px;
+  color: blue;
+}
+.purpleicon {
+  /* border: 1px solid red; */
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.purpleicon i {
+  font-size: 30px;
+}

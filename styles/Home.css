@@ -1,0 +1,75 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+main {
+  height: 87.5vh;
+  width: 100%;
+  background-image: url("../access/Team\ 7\ background.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.mainsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectiondiv1 {
+  height: 35vh;
+  border: 1px solid yellow;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: blue;
+}
+hr {
+  border: 5px solid;
+  color: blue;
+  width: 20%;
+  margin-top: 30px;
+}
+
+.paradiv {
+  height: 10vh;
+  border: 1px solid red;
+}
+.buttondiv {
+  height: 50px;
+  width: 100px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a {
+  background-color: white;
+}
+
+a {
+  color: blue;
+}
+/* kkjnnbhbhhhn */
+.anchordiv a {
+  text-decoration: none;
+  color: gray;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* WITH THIS, WHEN WE HOVER ON THE ANCHOR DIV, IT SHOULD CHANGE TO BLUE */
+.anchordiv:hover {
+  background-color: blue;
+  border-radius: 30px;
+}
+
+/* WITH THIS, WHEN WE HOVER ON THE ANCHOR DIV ALSO, THE ANCHOR NAME SHOULD 
+CHANGE TO WHITE ALONGSIDE. SO WE HAD TO MENTION THE HOVERED 
+ANCHOR DIV AGAIN AND AND THEN MENTION THE ANCHOR TAG WHICH WILL BE "a" */
+.anchordiv:hover a {
+  color: white;
+}
