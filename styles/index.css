@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+footer{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    
+}
+.let_see{
+    height: 20vh;
+    width: 80vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.call{
+    font-size: large;
+    text-align: center;
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.img{
+    height: inherit;
+    width: 100%;
+    position: inherit;
+    display: flex;
+}
+.icon1{
+    font-size: 50px;
+}
